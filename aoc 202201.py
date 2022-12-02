@@ -5,7 +5,7 @@ Created on Thu Dec  1 09:34:34 2022
 @author: damjan.jurkovic
 """
 
-file = open(r'C:\Users\damjan.jurkovic\Desktop\input.txt', 'r+')
+file = open('input.txt', 'r+')
 input = file.read()
 i_str = input.replace('\n',' ').replace('  ', ' 0 ').split(' ')
 i_int = [int(i) for i in i_str]
