@@ -7,7 +7,7 @@ Created on Fri Dec  2 09:22:07 2022
 
 import pandas as pd
 
-input = pd.read_csv(r'C:\Users\damjan.jurkovic\Desktop\AOC\input202202.txt', sep=' ', header=None)
+input = pd.read_csv(r'input202202.txt', sep=' ', header=None)
 
 input.columns = ['Elf', 'Me']
 
